@@ -1,5 +1,8 @@
 @use "../colors";
+@use "../fonts";
+@use "../macros";
 
 body {
     background-color: colors.$bg-tertiary;
+    padding: 0.5rem;
 }
