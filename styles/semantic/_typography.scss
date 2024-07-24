@@ -59,8 +59,8 @@ code {
 
 .astro-code {
     @include macros.margin-vertical(0.25rem);
-    @include macros.hide-scrollbar;
     @include macros.standout-box;
+    @include macros.hide-scrollbar;
 }
 
 body {

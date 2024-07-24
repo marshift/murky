@@ -1,13 +1,13 @@
 {
     "name": "murky",
     "description": "unified stylesheet used by marsh's projects",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "scripts": {
         "compile": "sass styles/base.scss dist/out.css"
     },
     "author": "marshift",
     "license": "BSD-3-Clause",
     "devDependencies": {
-        "sass": "^1.77.6"
+        "sass": "^1.77.8"
     }
 }
