@@ -5,13 +5,13 @@
 
 // https://github.com/sass/sass/issues/3091#issuecomment-1161545220
 @mixin convert-variables($module, $prefix: "") {
-    :root {
-        @each $name, $value in $module {
-            --#{$prefix}#{$name}: #{$value};
-        }
+    @each $name, $value in $module {
+        --#{$prefix}#{$name}: #{$value};
     }
 }
 
-@include convert-variables(meta.module-variables("colors"));
-@include convert-variables(meta.module-variables("fonts"));
-@include convert-variables(meta.module-variables("radii"), "radii-");
+:root {
+    @include convert-variables(meta.module-variables("colors"));
+    @include convert-variables(meta.module-variables("fonts"));
+    @include convert-variables(meta.module-variables("radii"), "radii-");
+}
