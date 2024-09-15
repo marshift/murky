@@ -1,7 +1,7 @@
 {
     "name": "murky",
     "description": "unified stylesheet used by marsh's projects",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "scripts": {
         "compile": "sass styles/base.scss dist/out.css --style=compressed"
     },
