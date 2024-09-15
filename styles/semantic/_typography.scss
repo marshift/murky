@@ -52,7 +52,7 @@ a {
 }
 code {
     font-family: fonts.$font-mono;
-    background-color: colors.$bg-primary;
+    background-color: rgba(colors.$bg-primary, 0.25);
     color: colors.$text-bright;
     border-radius: radii.$small;
 }
@@ -61,6 +61,10 @@ code {
     @include macros.margin-vertical(0.25rem);
     @include macros.standout-box;
     @include macros.hide-scrollbar;
+    
+    code {
+        background-color: transparent;
+    }
 }
 
 body {

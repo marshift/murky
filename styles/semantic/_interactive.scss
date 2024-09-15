@@ -11,7 +11,8 @@ input[type="text"], select {
     margin-bottom: 0.5rem;
 
     &:focus {
-        outline: 2px solid colors.$accent-dim;
+        outline: 1px dashed colors.$accent-dim;
+        background-color: colors.$bg-secondary !important;
     }
 
     &::placeholder {
