@@ -28,7 +28,7 @@
 }
 
 @mixin standout-box {
-    background-color: rgba(colors.$bg-primary, 0.25) !important;
+    background-color: rgba(colors.$bg-secondary, 0.5) !important;
     border-radius: radii.$medium;
     padding: 0.5rem;
 }
