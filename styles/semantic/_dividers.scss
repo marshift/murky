@@ -4,7 +4,7 @@
 
 @mixin _divider-base {
     border-radius: radii.$large;
-    border: 1px dashed colors.$accent-dim;
+    border: 1px solid colors.$accent-dim;
 }
 
 hr { 

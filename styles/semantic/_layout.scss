@@ -3,8 +3,6 @@
 @use "../macros";
 
 body {
-    background: linear-gradient(colors.$bg-primary, colors.$bg-tertiary);
     background-color: colors.$bg-tertiary;
-    background-attachment: fixed;
     padding: 0.5rem;
 }
